@@ -29,7 +29,7 @@
     "server": "npx json-server --watch public/db.json --port=3001",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://rodion-progs.github.io/React-pizza",
+  "homepage": "https://rodion-progs.github.io/React-pizza/build/",
   "eslintConfig": {
     "extends": [
       "react-app",
