@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.1.10",
     "axios": "^0.21.1",
     "classnames": "^2.3.1",
+    "gh-pages": "^3.1.0",
     "node-sass": "^5.0.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
@@ -23,10 +24,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "server": "npx json-server --watch public/db.json --port=3001",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://rodion-progs.github.io/React-pizza",
   "eslintConfig": {
     "extends": [
       "react-app",
